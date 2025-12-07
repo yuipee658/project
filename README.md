@@ -125,11 +125,6 @@
 - Python 3.8+
 - Jupyter Notebook
 
-### **Установка зависимостей:**
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn catboost kagglehub
-```
-
 ### **Запуск:**
 1. Скачать ноутбук `flats_prediction.ipynb`.
 2. Запустить ячейки по порядку.
@@ -139,10 +134,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn catboost kagglehub
 ##  10. Возможные улучшения
 
 1. **Feature Engineering** – создание новых признаков (например, цена за м²).
-2. **Подбор гиперпараметров** для CatBoost.
+2. **Подбор гиперпараметров**.
 3. **Ансамблирование моделей**.
 4. **Учет географических данных** (координаты, удалённость от центра).
-5. **Визуализация важности признаков**.
+5. **Создание чат-бота для удобства пользователя**.
+   
 
 ---
 
